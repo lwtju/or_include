@@ -8,7 +8,7 @@
 ----
 1、生成一个制造集合文件的可执行文件cf   
 
-    gcc -std=c99 -lm cuckoo_filter_t_main.c -o cf  
+    gcc -std=c99 -lm cuckoo_filter_main.c -o cf  
 
 2、生成数据集合文件  
 
