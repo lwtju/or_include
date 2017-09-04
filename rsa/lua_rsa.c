@@ -17,8 +17,7 @@
 /************************************************************************
  * RSA加密解密函数
  *
- * file: test_rsa_encdec.c
- * gcc -Wall -shared -fPIC -o test_rsa.so test.c -lcrypto -lssl
+ * gcc -Wall -shared -fPIC -o lua_rsa.so lua_rsa.c -lcrypto -lssl
  *
  ************************************************************************/
  
