@@ -232,7 +232,7 @@ int free_cf(cuckoo_filter *cf, const char *file_name) {
 
 int resize_line(int num) {
     if (num < 100000) {
-        return 10000000;
+        return 1000000;
     }
     if (num < 1000000) {
         return 2000000;
